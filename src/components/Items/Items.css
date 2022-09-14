@@ -1,0 +1,34 @@
+.items-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 450px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    box-shadow: 1px 4px 4px rgba(120, 119, 119, 0.25);
+    cursor: pointer;
+    transition: 500ms;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.items-block:hover {
+    transform: scale(1.02);
+}
+
+a {
+    text-decoration: none;
+}
+
+.items-block p {
+    color: black;
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.items-block img {
+    width: 80%;
+}

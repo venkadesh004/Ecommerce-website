@@ -1,0 +1,25 @@
+.banner {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    height: 630px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.banner p {
+    width: 600px;
+    color: black;
+    text-align: center;
+    font-size: 48px;
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.banner img {
+    width: 650px;
+}

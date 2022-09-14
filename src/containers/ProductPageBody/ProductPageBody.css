@@ -1,0 +1,16 @@
+.product-page-body {
+    margin-bottom: 80px;
+}
+
+.product-page-banner {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.product-page-items {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

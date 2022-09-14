@@ -1,0 +1,16 @@
+.main-body {
+    margin-bottom: 80px;
+}
+
+.main-body-banner {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.main-body-items {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}   
