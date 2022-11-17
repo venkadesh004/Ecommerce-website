@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { MainPage, Layout, ProductPage } from './containers';
+import { MainPage, Layout, ProductPage, SingleItem, SellerMain, LoginPage} from './containers';
 
 import './App.css';
 
@@ -11,7 +11,10 @@ const App  = () => {
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<MainPage />} />
-          <Route path='product' element={<ProductPage />} />
+          <Route path='product/:domain' element={<ProductPage />} />
+          <Route path='item/:id' element={<SingleItem />}/>
+          <Route path='seller' element={<SellerMain />} />
+          <Route path='/login' element={<LoginPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -1,0 +1,42 @@
+.seller-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seller-page form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+form h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+form input {
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+form button {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(255, 198, 92);
+    outline: none;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    color: black;
+}

@@ -1,10 +1,12 @@
 import React from 'react'
+import { useParams } from 'react-router-dom';
 
 import { SearchBar, SellerButton, Cart, User } from '../../components';
 
 import './NavBar.css';
 
 function NavBar() {
+  const {id} = useParams();
   return (
     <div className='navbar'>
       <SearchBar />
@@ -13,7 +15,7 @@ function NavBar() {
         <div className="user-icons-cart">
           <Cart />
         </div>
-        <User />
+        <User id={id} />
       </div>
     </div>
   )
